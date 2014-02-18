@@ -43,7 +43,7 @@ Write a **recursive** method to calculate Fibonacci numbers called `fibonacci_re
 
 ##Optimize Your Learning
 
-* Read more about the [Fibonacci Numbers](fib_reference.md)
+* Read more about the [Fibonacci Numbers](source/fib_reference.md)
 * As you're coding, ask yourself…
   * What kind of values can my method take as its input/arguments?
   * What kind of values can my method return?
