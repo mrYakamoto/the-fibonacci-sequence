@@ -19,12 +19,12 @@ def fib_iterative(n)
   # returns the nth Fibonacci number
 end
 
-fib_iterative(0) = 0
-fib_iterative(1) = 1
-fib_iterative(2) = 1
-fib_iterative(3) = 2
-fib_iterative(4) = 3
-fib_iterative(5) = 5
+fib_iterative(0) #=> 0
+fib_iterative(1) #=> 1
+fib_iterative(2) #=> 1
+fib_iterative(3) #=> 2
+fib_iterative(4) #=> 3
+fib_iterative(5) #=> 5
 # etc…
 ```
 
