@@ -19,12 +19,12 @@ def fib_iterative(n)
   # returns the nth Fibonacci number
 end
 
-fib_iterative(0) = 0
-fib_iterative(1) = 1
-fib_iterative(2) = 1
-fib_iterative(3) = 2
-fib_iterative(4) = 3
-fib_iterative(5) = 5
+fib_iterative(0) #=> 0
+fib_iterative(1) #=> 1
+fib_iterative(2) #=> 1
+fib_iterative(3) #=> 2
+fib_iterative(4) #=> 3
+fib_iterative(5) #=> 5
 # etc…
 ```
 
@@ -43,7 +43,7 @@ Write a **recursive** method to calculate Fibonacci numbers called `fibonacci_re
 
 ##Optimize Your Learning
 
-* Read more about the [Fibonacci Numbers](fib_reference.md)
+* Read more about the [Fibonacci Numbers](source/fib_reference.md)
 * As you're coding, ask yourself…
   * What kind of values can my method take as its input/arguments?
   * What kind of values can my method return?
