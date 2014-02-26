@@ -2,11 +2,11 @@
 
 ##Learning Competencies
 
-* Model a simple real-world system in Ruby code.
-* Method definition, arguments, and return values.
-* Use looping and iteration.
-* Use recursion.
-* Use tools to evaluate basic performance considerations, benchmarking, and tradeoffs between memory and speed.
+* MModel a simple real-world system in Ruby code
+* Method definition, arguments, and return values
+* Use looping and iteration
+* Use recursion
+* Use tools to evaluate basic performance considerations, benchmarking, and tradeoffs between memory and speed
 
 ##Summary
 
