@@ -39,7 +39,7 @@ Write an **iterative** method to calculate Fibonacci numbers called `fibonacci_i
 
 ###Release 1 : Recursive Version
 
-Write a **recursive** method to calculate Fibonacci numbers called `fibonacci_recursive`. This means you should not use *any* loops, but instead call itself recursively.
+Write a **recursive** method to calculate Fibonacci numbers called `fibonacci_recursive`. This means you should not use *any* loops. Instead, the method should all _itself_ recursively. You'll need to **write tests** to prove that your recursive version works too.
 
 ##Optimize Your Learning
 
