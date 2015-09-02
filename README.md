@@ -1,7 +1,7 @@
 # Algorithm Drill: The Fibonacci Sequence
 
 ## Summary
-In this challenge we'll again look at implementing the same behavior in two different ways:  iteratively and recursively.  It's assumed that we've been introduced to each of these approaches in a [previous challenge](../../algorithm-drill-factorial-challenge).
+In this challenge we'll again look at implementing the same behavior in two different ways:  iteratively and recursively.  It's assumed that we've been introduced to each of these approaches in a [previous challenge](../../../algorithm-drill-factorial-challenge).
 
 The behavior we're after in this challenge is calculating a number in the Fibonacci sequence.  We'll write two methods, each of which will accept an integer as an argument and return the number at that position in the Fibonacci sequence.  If our methods are called with the argument `7`, they return the seventh number in the sequence.  If called with `23`, they return the twenty-third number in the sequence.
 
