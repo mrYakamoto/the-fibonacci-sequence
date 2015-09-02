@@ -22,18 +22,17 @@ The sequence is built by following simple rules:
 
 Following these rules we can build the Fibonacci sequence:  0, 1, 1, 2, 3, 5, 8, 13 ... (see Figure 1).
 
-*Note:* We'll use zero-based numbering to reference positions in the sequence—like indexes in an array.  So, the sequence starts with the zeroth number.
+
+## Releases
+### Release 0: Iteratively Calculate the nth Fibonacci Number
+As described in the *Summary*, we're going to write a method that returns the nth number in the Fibonacci sequence.  For this release, we need to implement this behavior through an iterative algorithm.  Tests have been provided, which we can use to drive our development of this method.
+
+*Note:* We'll use zero-based numbering to reference positions in the sequence.  So, the sequence starts with the zeroth number—like indexes in an array.
 
 
-##Releases
+### Release 1: Recursively Calculate the nth Fibonacci Number
+Now we'll implement the same behavior using a recursive algorithm.  We'll need to supply our own tests.
 
-###Release 0 : Iterative Version
-
-Write an **iterative** method to calculate Fibonacci numbers called `iterative_nth_fibonacci_number`. This means you should use looping methods like `Fixnum#times`, `Fixnum#upto`, `Array#each`, etc.
-
-###Release 1 : Recursive Version
-
-Write a **recursive** method to calculate Fibonacci numbers called `recursive_nth_fibonacci_number`. This means you should not use *any* loops. Instead, the method should all _itself_ recursively. You'll need to **write tests** to prove that your recursive version works too.
 
 ##Optimize Your Learning
 
