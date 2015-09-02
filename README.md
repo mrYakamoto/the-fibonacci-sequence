@@ -1,34 +1,28 @@
-# The Fibonacci Sequence
+# Algorithm Drill: The Fibonacci Sequence
 
-##Learning Competencies
+## Summary
+In this challenge we'll again look at implementing the same behavior in two different ways:  iteratively and recursively.  It's assumed that we've been introduced to each of these approaches in a [previous challenge](../../algorithm-drill-factorial-challenge).
 
-* Model a simple real-world system in Ruby code
-* Write code with accurate method definition, arguments, and return values
-* Use looping and iteration
-* Write recursive methods
-* Use tools to evaluate basic performance considerations, benchmarking, and tradeoffs between memory and speed
+The behavior we're after in this challenge is calculating a number in the Fibonacci sequence.  We'll write two methods, each of which will accept an integer as an argument and return the number at that position in the Fibonacci sequence.  If our methods are called with the argument `7`, they return the seventh number in the sequence.  If called with `23`, they return the twenty-third number in the sequence.
 
-##Summary
 
-We're going to have you implement two versions of the [Fibonacci sequence](http://en.wikipedia.org/wiki/Fibonacci_number): an iterative version and a recursive version. We'll compare the performance of each and discuss potential improvements. They'll be methods called `fib_iterative` and `fib_recursive`, respectively, which take an integer `n` as input and returns the `n`th Fibonacci number.
+### The Fibonacci Sequence
+The [Fibonacci sequence](http://en.wikipedia.org/wiki/Fibonacci_number) is a specific sequence of numbers.  The numbers in the sequence are observable in nature (if interested, see video [Parts 1](http://www.youtube.com/watch?v=ahXIMUkSXX0), [2](http://www.youtube.com/watch?v=lOIP_Z_-0Hs), and [3](http://www.youtube.com/watch?v=14-NdQwKz9w)), and the ratio between the numbers approximates the [Golden Ratio](https://en.wikipedia.org/wiki/Golden_ratio) which has been [used in the arts](https://en.wikipedia.org/wiki/List_of_works_designed_with_the_golden_ratio) for its aesthetic properties.
 
-Each version will work as follows:
+Why are we interested in calculating numbers in the sequence?  Not for the numbers themselves, but because the sequence represents a real-world system of rules that we can model in code.
 
-```ruby
-def fib_iterative(n)
-  # returns the nth Fibonacci number
-end
+The sequence is built by following simple rules:
 
-fib_iterative(0) #=> 0
-fib_iterative(1) #=> 1
-fib_iterative(2) #=> 1
-fib_iterative(3) #=> 2
-fib_iterative(4) #=> 3
-fib_iterative(5) #=> 5
-# etc…
-```
+- The sequence starts with 0 and 1.
+- The next number in the sequence is the sum of the last two numbers in the sequence.
 
-Although writing a method to return Fibonacci numbers might seem contrived, we work through it because the rules of the system are easy to model in code. It helps us understand what a makes a good model or a bad model, and also different ways to model the same system, e.g., even though, functionally, an iterative and recursive solution produce the same output given the same input, they perform very differently.
+![building the Fibonacci sequence](readme-assets/build_fibonacci_sequence.gif)
+
+*Figure 1*. Building the Fibonacci sequence.
+
+Following these rules we can build the Fibonacci sequence:  0, 1, 1, 2, 3, 5, 8, 13 ... (see Figure 1).
+
+*Note:* We'll use zero-based numbering to reference positions in the sequence—like indexes in an array.  So, the sequence starts with the zeroth number.
 
 
 ##Releases
@@ -54,5 +48,5 @@ Write a **recursive** method to calculate Fibonacci numbers called `recursive_nt
 ##Resources
 
 * [Fibonacci Numbers on Wikipedia](http://en.wikipedia.org/wiki/Fibonacci_number)
-* Doodling in Math: Spirals, Fibonacci, and Being a Plant: [Part 1](http://www.youtube.com/watch?v=ahXIMUkSXX0), [Part 2](http://www.youtube.com/watch?v=lOIP_Z_-0Hs), and [Part 3](http://www.youtube.com/watch?v=14-NdQwKz9w)
+* 
 * [Ruby Kickstart - Introduction to Recursion](https://vimeo.com/24716767)
