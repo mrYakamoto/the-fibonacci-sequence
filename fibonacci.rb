@@ -1,5 +1,5 @@
-def fibonacci_iterative(n)
+def iterative_nth_fibonacci_number(n)
 end
 
-def fibonacci_recursive(n)
+def recursive_nth_fibonacci_number(n)
 end

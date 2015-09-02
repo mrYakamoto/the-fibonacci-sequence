@@ -35,11 +35,11 @@ Although writing a method to return Fibonacci numbers might seem contrived, we w
 
 ###Release 0 : Iterative Version
 
-Write an **iterative** method to calculate Fibonacci numbers called `fibonacci_iterative`. This means you should use looping methods like `Fixnum#times`, `Fixnum#upto`, `Array#each`, etc.
+Write an **iterative** method to calculate Fibonacci numbers called `iterative_nth_fibonacci_number`. This means you should use looping methods like `Fixnum#times`, `Fixnum#upto`, `Array#each`, etc.
 
 ###Release 1 : Recursive Version
 
-Write a **recursive** method to calculate Fibonacci numbers called `fibonacci_recursive`. This means you should not use *any* loops. Instead, the method should all _itself_ recursively. You'll need to **write tests** to prove that your recursive version works too.
+Write a **recursive** method to calculate Fibonacci numbers called `recursive_nth_fibonacci_number`. This means you should not use *any* loops. Instead, the method should all _itself_ recursively. You'll need to **write tests** to prove that your recursive version works too.
 
 ##Optimize Your Learning
 
