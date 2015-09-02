@@ -34,18 +34,7 @@ As described in the *Summary*, we're going to write a method that returns the nt
 Now we'll implement the same behavior using a recursive algorithm.  We'll need to supply our own tests.
 
 
-##Optimize Your Learning
+## Conclusion
+This challenge presented us with another opportunity to create behavior with using different implementations:  iterative and recursive.  We want to continue to practice each, so that we can employ whichever is appropriate for a given situation.
 
-* Read more about the [Fibonacci Numbers](source/fib_reference.md)
-* As you're coding, ask yourself…
-  * What kind of values can my method take as its input/arguments?
-  * What kind of values can my method return?
-  * Are there any tradeoffs I'm making? Memory versus speed? Readability versus speed? On what side of those tradeoffs am I falling and why? What might my code look like if I fell on the other side of those tradeoffs?
-  * Are there any method arguments that don't make sense? What should my program do in that situation? "Ignore them" is one valid answer—what are others?
-  * How large can my input be before it takes too long for my program to run? How long is "too long?"
-
-##Resources
-
-* [Fibonacci Numbers on Wikipedia](http://en.wikipedia.org/wiki/Fibonacci_number)
-* 
-* [Ruby Kickstart - Introduction to Recursion](https://vimeo.com/24716767)
+If desired, read more [information](readme-assets/fib_description.md) on the Fibonacci sequence.
